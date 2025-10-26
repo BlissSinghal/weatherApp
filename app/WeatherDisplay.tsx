@@ -188,10 +188,7 @@ export default function WeatherDisplayScreen() {
       <View style={styles.actions}>
         
 
-        <TouchableOpacity style={styles.button} onPress={() => {/* TODO: navigate to map */}}>
-          <Ionicons name="map" size={22} color="#fff" />
-          <Text style={styles.btnText}>View on Map</Text>
-        </TouchableOpacity>
+        
       </View>
 
       {/* Info Table (current) */}
