@@ -1,10 +1,10 @@
 // app.config.js
-export default ({ config }) => ({
-  ...config,
+export default () => ({
+
   
 
   expo: {
-    ...config.expo,
+
     owner: "blisssinghal",
     name: "weatherApp",
     slug: "weatherApp",
