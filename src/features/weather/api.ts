@@ -33,6 +33,8 @@ import Constants from "expo-constants";
 
 const API_KEY = (Constants.expoConfig?.extra as any)?.GOOGLE_MAPS_API_KEY as string;
 
+console.log('mapsKey (masked):', String(API_KEY ?? '').replace(/.(?=.{4})/g, '*'));
+
 export type WeatherSummary = {
   currentTime: string;
   timeZone: string;
