@@ -1,8 +1,11 @@
 // app.config.js
 export default ({ config }) => ({
   ...config,
+  
+
   expo: {
     ...config.expo,
+    owner: "blisssinghal",
     name: "weatherApp",
     slug: "weatherApp",
     version: "1.0.0",
