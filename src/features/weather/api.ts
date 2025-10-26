@@ -31,7 +31,7 @@ OUTPUTS: Weather data for that location:
 // src/features/weather/api.ts
 import Constants from "expo-constants";
 
-const API_KEY = (Constants.expoConfig?.extra as any)?.GOOGLE_MAPS_API_KEY as string;
+const API_KEY = (Constants.expoConfig?.extra as any)?.googleMapsApiKey as string;
 
 console.log('mapsKey (masked):', String(API_KEY ?? '').replace(/.(?=.{4})/g, '*'));
 

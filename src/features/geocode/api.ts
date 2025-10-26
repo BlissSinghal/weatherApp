@@ -27,7 +27,7 @@ OUTPUT: GeocodeHit[]: Array of geocoded results with formatted address, place ID
 //reading the API key from app config
 import Constants from "expo-constants";
 
-const API_KEY = (Constants.expoConfig?.extra as any)?.GOOGLE_MAPS_API_KEY as string;
+const API_KEY = (Constants.expoConfig?.extra as any)?.googleMapsApiKey as string;
 
 //defines the format of our output 
 export type GeocodeHit = {
