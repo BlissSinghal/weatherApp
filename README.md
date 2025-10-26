@@ -29,6 +29,8 @@
 
 **Weatherly** is a full-featured **React Native (Expo)** weather application designed to demonstrate technical ability in API integration, data persistence, and CRUD operations.  
 
+It can be publically viewed [here] https://blisssinghal-weatherapp.expo.app
+
 It retrieves **live weather information** for any user-specified location and includes a **database layer** where users can **create**, **read**, **update**, and **delete** stored weather records — showcasing strong understanding of backend integration in a mobile app.
 
 This project satisfies both parts of the assignment:
@@ -168,7 +170,7 @@ The architecture remains in place (services/openAIChatAPI.js) for easy activatio
 
 ⚙️ Setup & Installation
 1️⃣ Clone the repo
-git clone https://github.com/<BlissSinghal>/weatherlyApp.git
+git clone https://github.com/<BlissSinghal>/weatherApp.git
 cd weatherly
 
 2️⃣ Install dependencies
